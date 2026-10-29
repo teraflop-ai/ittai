@@ -1,5 +1,5 @@
 [project]
-name = "megakernels"
+name = "ittai"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -19,7 +19,7 @@ dependencies = [
 ]
 
 [project.scripts]
-megakernels = "megakernels:main"
+ittai = "ittai:main"
 
 [build-system]
 requires = ["uv_build>=0.12.19,<0.13.0"]
