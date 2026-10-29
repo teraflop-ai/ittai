@@ -1,7 +1,7 @@
 import sys
 import torch
 import torch.nn.functional as F
-from ittai.qwen3.kernel import Qwen3Embedder, D, DQ, DQKV, DGU, FF, L
+from ittai.qwen3 import Qwen3Embedder, D, DQ, DQKV, DGU, FF, L
 
 model_id = sys.argv[1] if len(sys.argv) > 1 else "Qwen/Qwen3-Embedding-0.6B"
 B = int(sys.argv[2]) if len(sys.argv) > 2 else 64

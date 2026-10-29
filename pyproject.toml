@@ -31,3 +31,8 @@ torch = { index = "pytorch-cu132" }
 [[tool.uv.index]]
 name = "pytorch-cu132"
 url = "https://download.pytorch.org/whl/cu132"
+
+[dependency-groups]
+dev = [
+    "gitingest>=0.3.1",
+]
